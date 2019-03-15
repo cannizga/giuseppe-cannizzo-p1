@@ -1,5 +1,5 @@
-var greeting = 'Welcome!!';
-var greeting2 = "To My Website";
+var greeting = 'Hope Your Having';
+var greeting2 = "A Good Day :)";
 var message = greeting + " " + greeting2;
 
 var price = 400;

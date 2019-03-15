@@ -56,13 +56,14 @@ p3 {
     font-size: 25;
     color: black;}
 
+
 a:link {
       color: blue;
       text-decoration: none;}
 a:visited {
       color: deeppink;}
 a:hover {
-      color: blue;
+      color: deeppink;
       text-decoration: underline;}
 a:active {
       color: darkcyan;}
