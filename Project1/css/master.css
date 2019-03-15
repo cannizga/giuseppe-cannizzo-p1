@@ -16,29 +16,31 @@ html {min-height: 100%;
   white-space: nowrap;
   overflow: hidden; transform: translateY(-50%);}
 
-.anim-typewriter{animation: typewriter 4s steps(40) 1s 1 normal both,
-  blinkTextCursor 500ms steps(40) infinite normal;}
+.anim-typewriter {
+animation: typewriter 4s steps(40) 1s 1 normal both,
+blinkTextCursor 500ms steps(40) infinite normal;}
+
 @keyframes typewriter {
   from {
     width: 0;}
   to {
     width: 16em;}
-  }
+       }
 
 @keyframes blinkTextCursor {
   from {
     border-right-color: rgba(255,255,255,0.75);}
   to {border-right-color: transparent;}
+       }
 
-  }
 h2 {
     text-align: center;
     text-transform: uppercase;
     font-size: 35pt;
     line-height: 2.1em;
-    color: rgb(241, 196, 15);
+    color: rgb(23, 32, 42);
     background-color: rgb(52, 152, 219);
-    text-shadow: 2px 2px 0px rgb(28, 40, 51);
+    text-shadow: 2px 2px 0px rgb(86, 101, 115);
     }
 
 h3 {
@@ -68,7 +70,7 @@ h8 {
 footer {color: rgb(241, 196, 15); font-size: 17; text-shadow: 2px 2px 0px rgb(28, 40, 51);}
 
 p {
-    text-shadow: 2px 2px 0px rgb(28, 40, 51);
+    text-shadow: 2px 2px 0px rgb(86, 101, 115);
     text-align: center;
     font-weight: bold;
     font-style: italic;
@@ -76,14 +78,33 @@ p {
     font-size: 19pt;
     letter-spacing: 0.05em;
     line-height: 1.8em;
-    color: rgb(241, 196, 15);
-    background-color: Dodgerblue;}
+    color: rgb(23, 32, 42);
+    background-color: rgb(52, 152, 219);}
 
 p3 {
     font-weight: bold;
     font-size: 25;
-    color: black;}
+    color: black;
+    background-color: lightcoral;
+    letter-spacing: 0.05em;}
 
+form {
+      font-family: fantasy;
+      font-size: 18;
+      line-height: 2em;}
+
+button {
+       text-shadow: 1px 1px 0px rgb(28, 40, 51);
+       font-family: fantasy;
+       font-size: 25;
+       border: Black;
+       background-color: Dodgerblue;
+       width: 4.5%;
+       height: 4.5%;
+       position: absolute;
+       left: 260px;
+       right: 260px;
+       bottom: 295px;}
 
 a:link {
       color: rgb(52, 152, 219);
