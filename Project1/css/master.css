@@ -82,10 +82,11 @@ p {
     background-color: rgb(52, 152, 219);}
 
 p3 {
+    text-shadow: 2px 2px 0px rgb(86, 101, 115);
     font-weight: bold;
-    font-size: 25;
-    color: black;
-    background-color: lightcoral;
+    font-size: 35;
+    color: rgb(23, 32, 42);
+    background-color: rgb(52, 152, 219);
     letter-spacing: 0.05em;}
 
 form {
@@ -102,9 +103,9 @@ button {
        width: 4.5%;
        height: 4.5%;
        position: absolute;
-       left: 260px;
-       right: 260px;
-       bottom: 295px;}
+       left: 430px;
+       right: 430px;
+       bottom: 263px;}
 
 a:link {
       color: rgb(52, 152, 219);
