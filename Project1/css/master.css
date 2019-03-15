@@ -18,8 +18,7 @@ h3 {
     font-size: 30pt;
     color: white;
     background-color: #ee3e80;
-    text-shadow: 2px 2px 0px grey;
-    }
+    text-shadow: 2px 2px 0px grey;}
 
 h4 {
     text-align: center;
@@ -27,32 +26,20 @@ h4 {
     font-size: 30pt;
     color: white;
     background-color: blue;
-    text-shadow: 2px 2px 0px grey;
-    }
+    text-shadow: 2px 2px 0px grey;}
+
+h6 { line-height: 6em;}
+
+h7 { line-height: 6em;}
 
 h8 {
-      text-shadow: 2px 2px 0px grey;
-      font-family: fantasy;
-      font-weight: bold;
-      font-size: 45;
-      color: black;
-      background-color: DarkCyan;}
+    text-shadow: 2px 2px 0px grey;
+    font-weight: bold;
+    font-size: 45;
+    color: black;
+    background-color: DarkCyan;}
 
-p3 {
-       font-family: fantasy;
-       font-weight: bold;
-       font-size: 25;
-       color: black;}
-
-h6 { line-height: 6em;
-}
-
-h7 { line-height: 6em;
-}
-
-footer {font-size: 17;
-
-}
+footer {font-size: 17;}
 
 p {
     text-align: center;
@@ -62,7 +49,12 @@ p {
     font-size: 17pt;
     letter-spacing: 0.05em;
     line-height: 1.8em;
-    background-color: white;}
+    background-color: Dodgerblue;}
+
+p3 {
+    font-weight: bold;
+    font-size: 25;
+    color: black;}
 
 a:link {
       color: blue;
