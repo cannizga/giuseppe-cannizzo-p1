@@ -62,24 +62,21 @@ h6 { line-height: 6em;}
 h7 { line-height: 6em;}
 
 h8 {
-    text-shadow: 2px 2px 0px rgb(28, 40, 51);
-    font-weight: bold;
-    color: rgb(241, 196, 15);
-    background-color: DarkCyan;
     height: calc(100vh - 8em);
-    padding: 4em;
-    color: rgba(28, 40, 51, 0.75);}
+    padding: 4em;}
 
 footer {color: rgb(241, 196, 15); font-size: 17; text-shadow: 2px 2px 0px rgb(28, 40, 51);}
 
 p {
+    text-shadow: 2px 2px 0px rgb(28, 40, 51);
     text-align: center;
     font-weight: bold;
     font-style: italic;
     word-spacing: .01em;
-    font-size: 17pt;
+    font-size: 19pt;
     letter-spacing: 0.05em;
     line-height: 1.8em;
+    color: rgb(241, 196, 15);
     background-color: Dodgerblue;}
 
 p3 {
