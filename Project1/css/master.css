@@ -1,15 +1,44 @@
 body {
     font-family: fantasy;
-    background-color: rgb(150,150,150);}
+    background-color: rgb(52, 73, 94);
+    }
 
+html {min-height: 100%;
+      }
+
+.line {positon: relative;
+  top: 50%;
+  width: 16em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255, 0.75);
+  font-size: 48;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden; transform: translateY(-50%);}
+
+.anim-typewriter{animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(40) infinite normal;}
+@keyframes typewriter {
+  from {
+    width: 0;}
+  to {
+    width: 16em;}
+  }
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255,255,255,0.75);}
+  to {border-right-color: transparent;}
+
+  }
 h2 {
     text-align: center;
     text-transform: uppercase;
     font-size: 35pt;
     line-height: 2.1em;
-    color: white;
-    background-color: DarkCyan;
-    text-shadow: 2px 2px 0px grey;
+    color: rgb(241, 196, 15);
+    background-color: rgb(52, 152, 219);
+    text-shadow: 2px 2px 0px rgb(28, 40, 51);
     }
 
 h3 {
@@ -33,13 +62,15 @@ h6 { line-height: 6em;}
 h7 { line-height: 6em;}
 
 h8 {
-    text-shadow: 2px 2px 0px grey;
+    text-shadow: 2px 2px 0px rgb(28, 40, 51);
     font-weight: bold;
-    font-size: 45;
-    color: black;
-    background-color: DarkCyan;}
+    color: rgb(241, 196, 15);
+    background-color: DarkCyan;
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgba(28, 40, 51, 0.75);}
 
-footer {font-size: 17;}
+footer {color: rgb(241, 196, 15); font-size: 17; text-shadow: 2px 2px 0px rgb(28, 40, 51);}
 
 p {
     text-align: center;
@@ -58,12 +89,12 @@ p3 {
 
 
 a:link {
-      color: blue;
+      color: rgb(52, 152, 219);
       text-decoration: none;}
 a:visited {
-      color: deeppink;}
+      color: rgb(165, 105, 189);}
 a:hover {
-      color: deeppink;
+      color: rgb(165, 105, 189);
       text-decoration: underline;}
 a:active {
       color: darkcyan;}
