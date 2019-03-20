@@ -100,12 +100,15 @@ button {
        font-size: 25;
        border: Black;
        background-color: Dodgerblue;
-       width: 4.5%;
+       width: 5.2%;
        height: 4.5%;
        position: absolute;
        left: 430px;
        right: 430px;
-       bottom: 263px;}
+       bottom: 269px;}
+
+table {
+      text-align: center;}
 
 a:link {
       color: rgb(52, 152, 219);
