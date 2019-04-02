@@ -33,6 +33,10 @@ blinkTextCursor 500ms steps(40) infinite normal;}
   to {border-right-color: transparent;}
        }
 
+h1 {
+  position: relative;
+  text-align: center;}
+
 h2 {
     text-align: center;
     text-transform: uppercase;
@@ -40,8 +44,7 @@ h2 {
     line-height: 2.1em;
     color: rgb(23, 32, 42);
     background-color: rgb(52, 152, 219);
-    text-shadow: 2px 2px 0px rgb(86, 101, 115);
-    }
+    text-shadow: 2px 2px 0px rgb(86, 101, 115);}
 
 h3 {
     text-align: center;
@@ -65,9 +68,16 @@ h7 { line-height: 6em;}
 
 h8 {
     height: calc(100vh - 8em);
+    position: relative;
+    text-align: center;
     padding: 4em;}
 
-footer {color: rgb(241, 196, 15); font-size: 17; text-shadow: 2px 2px 0px rgb(28, 40, 51);}
+footer {
+       color: rgb(241, 196, 15);
+       font-size: 17;
+       text-shadow: 2px 2px 0px rgb(28, 40, 51);
+       position: relative;
+       text-align: left;}
 
 p {
     text-shadow: 2px 2px 0px rgb(86, 101, 115);
@@ -103,12 +113,17 @@ button {
        width: 5.2%;
        height: 4.5%;
        position: absolute;
-       left: 430px;
-       right: 430px;
-       bottom: 269px;}
+       align-self: center;
+       left: 450px;
+       bottom: 260px;}
 
-table {
+table{
+      margin: 0 auto;
       text-align: center;}
+
+ul {
+    text-align: center;
+    position: relative;}
 
 a:link {
       color: rgb(52, 152, 219);
